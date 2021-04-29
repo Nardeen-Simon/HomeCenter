@@ -1,0 +1,322 @@
+/************ INDEX PAGE ************/
+*{
+	padding:0;
+	margin:0;
+}
+.banner-area{
+	background-image: url(6.jpg);
+	background-position: center center;
+	-webkit-background-size:cover;
+	height: 80vh;
+}
+body{
+	font-family:  myFirstFont;
+	font-size:15px;
+	line-height:1.5;
+	font: 15px;
+	padding:0;
+	margin:0;
+	background-color:   #f4f4f4; 
+}
+header{
+	padding: 15px 60px;
+}
+ .menu{
+ 	width: 42%;
+ 	float: right;
+ 	list-style: none;
+ }
+ .menu li{
+ 	width: 100px;
+ 	height: 50px;
+ 	line-height: 50px;
+ 	text-align: center;
+ 	color:#fff;
+ 	font-size: 13px;
+ 	float:left; 
+ }
+
+.menu li:hover{
+	background:yellow;
+
+}
+.menu li:hover a{
+	color:#000;
+}
+
+
+ .menu li a{
+ 	text-decoration: none;
+ 	font-family: baloo;
+ 	color: #fff;
+ 	text-transform: uppercase;
+ }
+ .logo{
+ 	text-decoration: none;
+ 	color: #fff;
+ 	font-size: 15px;
+ 	font-family: big john;
+ 	padding:top;
+ 	width: 10px;
+ 	float: left;
+ 	color: #fff;
+  }
+ .mid{
+	min-height: 70px;
+	
+	text-align: center;
+	color: #ffff;
+}
+.mid h1{
+	margin: 100px;
+	font-size: 80px;
+	margin-bottom: 0;
+
+}
+
+.mid{
+	margin: 0;
+}
+
+.mid p{
+	font-size: 0;
+}
+
+.mid .redhigh{
+	color: rgb(241, 202, 102);
+	 animation: pulse 5s infinite;
+
+}
+.ss{
+	width: 100%;
+	height:100%;
+	margin: 0;
+	overflow: hidden;
+}
+
+#search{
+	padding: 15px;
+	color: #ffffff;
+	background: #35424a;
+}
+
+#search h1{
+	float: left;
+}
+#search form{
+	float: right;
+	margin-top: 15px;
+}
+#search input{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+.qq{
+	background:#747474;
+}
+
+/****************** BULDINGS CARDS **********************/
+#boxes{
+	margin-top: 10px;
+}
+#boxes .box{
+	text-align: center;
+	float: left;
+	width: 30%;
+	padding: 10px;
+
+}
+#boxes .box img{
+	width: 300px;
+	padding: 5px;
+
+}
+
+/****************** footer *********************/
+footer{
+	padding: 2px;
+	margin-top: 9px;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #35424a;
+	text-align: center;
+
+}
+.kk{
+	text-align: center;
+	color: #666;
+}
+.xx{
+	color:  #f4f4f4;
+}
+.ss h1{ 
+	color: #666;
+	text-align: center;
+	padding: 5px;
+	margin: 10px;
+}
+.material-icons{
+	color: blue;
+}
+.mid h1{
+		margin-top:5px;
+		
+         animation: pulse 5s infinite;
+	}
+.ff{
+	color: orange;
+}
+.dd{
+
+      width: 400px;
+      height: 200px;
+      border:2px solid #fff;
+      background: url(img/tiger.png) no-repeat;
+      box-shadow: 10px 10px 5px #ccc;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
+   
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: lightblue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: rgb(72, 162, 192)}
+
+.button:active {
+  background-color: rgb(49, 110, 131);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.rr{
+	color: #e8491d;
+	text-decoration: none;
+}
+
+/********* BULDINGS PAGES ******************/
+.item h2 {
+    font-size:xx-large;
+	text-align: center;
+}
+.item p{
+    text-align: justify;
+    float: right;
+}
+.item img{
+    float: left;
+    margin: 10px;
+    width: 200px; 
+    height: 170px; 
+    margin-right: 15px;
+    border-radius: 5px;
+	box-shadow: 5px 5px 10px #666;
+
+}
+.item {
+    border:2px solid #abbbc5;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.item b{
+	text-decoration: underline;
+}
+
+
+/********************** about PAGE *********************/
+.article{
+	margin:20px;
+	border:1px solid rgba(0,0,0,0.2);
+	border-radius: 20px;
+	padding: 5px;
+	width: 500px;
+	height: 600px;
+	box-shadow: 5px 10px 10px #888888;
+	float: left;
+
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'almaral',sans-serif
+	font-weight: 700;
+}
+h1,h2{
+	font-size: 25px;
+}
+.text{ margin-top: 15px; }
+.text h1{ 
+	color: #2F4F4F;
+	text-align: center;
+	padding: 5px;
+	margin: 10px;
+	 }
+	 
+h1,h2,h3,h4,h5,h6{
+	font-family: 'almaral',sans-serif
+	font-weight: 700;
+}
+h1,h2{
+	font-size: 25px;
+}
+header{
+	padding: 15px 60px;
+}
+.about_article{
+	margin:20px;
+	border:1px solid rgba(0,0,0,0.2);
+	border-radius: 20px;
+	padding: 5px;
+	width: 500px;
+	height: 500px;
+	box-shadow: 5px 10px 10px #888888;
+	float: left;
+	text-align: center;
+
+} 
+.img{
+	border-radius: 5px;
+	float:left;
+	padding: 10px;
+	width: 5px;
+	height: 5px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'almaral',sans-serif
+	font-weight: 700;
+}
+h1,h2{
+	font-size: 25px;
+}
+
+/************pulse div*******************/
+/*@keyframes pulse {
+	0% {
+	background-color: #35424a;
+	/background-color: #001F3F;/
+	}
+	100% {
+	 background-color: #fff;
+	}}*/
+@keyframes pulse {
+	0% {
+		background-color: #35424a;
+	  background-color: #001F3F;
+	}
+	100% {
+	  background-color: #fff;
+	}}

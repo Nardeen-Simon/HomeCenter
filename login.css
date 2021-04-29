@@ -1,0 +1,86 @@
+	body{
+		font-family: sans-serif;	
+	background-image: url(6.jpg);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: cover;
+}
+form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); 
+    background:rgba(0,0,0,.3);
+    padding: 50px;
+    border-radius: 4px;
+}
+form label{
+	display: block;
+	color: #fff;
+	font-size:20px;
+	margin-bottom: 8px;
+	cursor: pointer; 
+	text-transform: capitalize;
+}
+
+form input{
+	font-size: 18px;
+    padding: 7px;
+    width: 100%;
+    border:1px solid #fff000;
+    color: #fff;
+    display: block;
+    background:transparent;
+}
+form input[type="submit"]{
+width:120px;
+margin-top: 10px;
+cursor: pointer;
+
+}
+form p{
+	color: #fff;
+	font-size: 17px;	
+}
+form p a{
+	color: #fff000;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+	cursor: pointer;
+
+
+
+}
+
+
+
+input[type=checkbox] {
+	width: 20%;
+}
+.aa{
+
+      width: 600px;
+      height: 220px;
+      border:2px solid #fff;
+      background: url(img/tiger.png) no-repeat;
+      box-shadow: 10px 10px 5px #ccc;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
+   
+}
+
+.bb{
+
+      width: 600px;
+      height: 330px;
+      border:2px solid #fff;
+      background: url(img/tiger.png) no-repeat;
+      box-shadow: 10px 10px 5px #ccc;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
+   
+}
+
